@@ -20,3 +20,5 @@ function exibeChuteNaTela(chute) {
         <span class="box">${chute}</span>
     `
 }
+
+recognition.addEventListener('end', () => recognition.start); // Mantem o jogo funcionando até o jogador acertar o numero.
